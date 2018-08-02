@@ -15,6 +15,9 @@
 		EC287D8421129DA000CC8E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC287D8321129DA000CC8E18 /* main.m */; };
 		EC287D8E21129DA000CC8E18 /* newTestPodSpecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC287D8D21129DA000CC8E18 /* newTestPodSpecTests.m */; };
 		EC287D9921129DA000CC8E18 /* newTestPodSpecUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC287D9821129DA000CC8E18 /* newTestPodSpecUITests.m */; };
+		EC797D172112CEB400AA1FF5 /* newTestPodSpec.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EC797D162112CEB400AA1FF5 /* newTestPodSpec.podspec */; };
+		EC797D1A2112CFC600AA1FF5 /* newTestPodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC797D192112CFC600AA1FF5 /* newTestPodSpec.m */; };
+		EC797D212112D1F200AA1FF5 /* MyRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC797D202112D1F200AA1FF5 /* MyRes.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		EC287D9421129DA000CC8E18 /* newTestPodSpecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newTestPodSpecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC287D9821129DA000CC8E18 /* newTestPodSpecUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newTestPodSpecUITests.m; sourceTree = "<group>"; };
 		EC287D9A21129DA000CC8E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC797D162112CEB400AA1FF5 /* newTestPodSpec.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = newTestPodSpec.podspec; sourceTree = "<group>"; };
+		EC797D182112CFC600AA1FF5 /* newTestPodSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newTestPodSpec.h; sourceTree = "<group>"; };
+		EC797D192112CFC600AA1FF5 /* newTestPodSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newTestPodSpec.m; sourceTree = "<group>"; };
+		EC797D202112D1F200AA1FF5 /* MyRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MyRes.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,11 @@
 		EC287D7321129D9D00CC8E18 /* newTestPodSpec */ = {
 			isa = PBXGroup;
 			children = (
+				EC797D162112CEB400AA1FF5 /* newTestPodSpec.podspec */,
+				EC797D122112B61B00AA1FF5 /* Classes */,
+				EC797D112112B61B00AA1FF5 /* Frameworks */,
+				EC797D102112B61B00AA1FF5 /* Libraries */,
+				EC797D132112B61B00AA1FF5 /* Resources */,
 				EC287D7421129D9D00CC8E18 /* AppDelegate.h */,
 				EC287D7521129D9D00CC8E18 /* AppDelegate.m */,
 				EC287D7721129D9E00CC8E18 /* ViewController.h */,
@@ -130,6 +142,37 @@
 				EC287D9A21129DA000CC8E18 /* Info.plist */,
 			);
 			path = newTestPodSpecUITests;
+			sourceTree = "<group>";
+		};
+		EC797D102112B61B00AA1FF5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		EC797D112112B61B00AA1FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC797D122112B61B00AA1FF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC797D182112CFC600AA1FF5 /* newTestPodSpec.h */,
+				EC797D192112CFC600AA1FF5 /* newTestPodSpec.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC797D132112B61B00AA1FF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC797D202112D1F200AA1FF5 /* MyRes.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +280,8 @@
 			files = (
 				EC287D8121129DA000CC8E18 /* LaunchScreen.storyboard in Resources */,
 				EC287D7E21129DA000CC8E18 /* Assets.xcassets in Resources */,
+				EC797D172112CEB400AA1FF5 /* newTestPodSpec.podspec in Resources */,
+				EC797D212112D1F200AA1FF5 /* MyRes.bundle in Resources */,
 				EC287D7C21129D9E00CC8E18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +310,7 @@
 				EC287D7921129D9E00CC8E18 /* ViewController.m in Sources */,
 				EC287D8421129DA000CC8E18 /* main.m in Sources */,
 				EC287D7621129D9D00CC8E18 /* AppDelegate.m in Sources */,
+				EC797D1A2112CFC600AA1FF5 /* newTestPodSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
